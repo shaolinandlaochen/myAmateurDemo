@@ -13,26 +13,25 @@
 		9D5C1F021F9F3C2B00083292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C1F001F9F3C2B00083292 /* Main.storyboard */; };
 		9D5C1F041F9F3C2B00083292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C1F031F9F3C2B00083292 /* Assets.xcassets */; };
 		9D5C1F071F9F3C2B00083292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C1F051F9F3C2B00083292 /* LaunchScreen.storyboard */; };
-		9D5C1F121F9F3C2B00083292 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C1F111F9F3C2B00083292 /* ____Tests.m */; };
-		9D5C1F1D1F9F3C2B00083292 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C1F1C1F9F3C2B00083292 /* ____UITests.m */; };
+		9D5C1F371F9F3D7E00083292 /* FTIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C1F2C1F9F3D7E00083292 /* FTIndicator.m */; };
+		9D5C1F381F9F3D7E00083292 /* FTNotificationIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C1F2F1F9F3D7E00083292 /* FTNotificationIndicator.m */; };
+		9D5C1F391F9F3D7E00083292 /* FTProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C1F321F9F3D7E00083292 /* FTProgressIndicator.m */; };
+		9D5C1F3A1F9F3D7E00083292 /* ImageAsserts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C1F331F9F3D7E00083292 /* ImageAsserts.bundle */; };
+		9D5C1F3B1F9F3D7E00083292 /* FTToastIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C1F361F9F3D7E00083292 /* FTToastIndicator.m */; };
+		9D97F4411FA72A0000BF1119 /* LuckIsIntroducedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D97F4401FA72A0000BF1119 /* LuckIsIntroducedViewController.m */; };
+		9D97F4471FA72A8C00BF1119 /* ZLPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D97F4441FA72A8C00BF1119 /* ZLPanGestureRecognizer.m */; };
+		9D97F4481FA72A8C00BF1119 /* ZLSwipeableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D97F4461FA72A8C00BF1119 /* ZLSwipeableView.m */; };
+		9D97F44B1FA72ABB00BF1119 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D97F44A1FA72ABB00BF1119 /* CardView.m */; };
+		9D97F44E1FA72B2400BF1119 /* UIColor+FlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D97F44D1FA72B2400BF1119 /* UIColor+FlatColors.m */; };
+		9D97F4511FA72CFA00BF1119 /* luckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D97F4501FA72CFA00BF1119 /* luckView.m */; };
+		9DCDA2D61FA96760004F2A28 /* VideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCDA2D51FA96760004F2A28 /* VideoListViewController.m */; };
+		9DCDA2DE1FA96942004F2A28 /* ImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DCDA2D81FA96942004F2A28 /* ImageResources.bundle */; };
+		9DCDA2DF1FA96942004F2A28 /* XLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCDA2DB1FA96942004F2A28 /* XLSlider.m */; };
+		9DCDA2E01FA96942004F2A28 /* XLVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCDA2DD1FA96942004F2A28 /* XLVideoPlayer.m */; };
+		9DCDA2E41FA9694A004F2A28 /* XLVideoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCDA2E31FA9694A004F2A28 /* XLVideoItem.m */; };
+		9DCDA2E71FA96B7E004F2A28 /* XLVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCDA2E61FA96B7E004F2A28 /* XLVideoCell.m */; };
+		9DD3A64C1FEA36360021FC1F /* XHNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD3A64B1FEA36360021FC1F /* XHNetworkCache.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9D5C1F0E1F9F3C2B00083292 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9D5C1EEC1F9F3C2A00083292 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D5C1EF31F9F3C2B00083292;
-			remoteInfo = "弹框试试";
-		};
-		9D5C1F191F9F3C2B00083292 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9D5C1EEC1F9F3C2A00083292 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D5C1EF31F9F3C2B00083292;
-			remoteInfo = "弹框试试";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9D5C1EF41F9F3C2B00083292 /* 弹框试试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "弹框试试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,30 +44,48 @@
 		9D5C1F031F9F3C2B00083292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D5C1F061F9F3C2B00083292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D5C1F081F9F3C2B00083292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D5C1F0D1F9F3C2B00083292 /* 弹框试试Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "弹框试试Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5C1F111F9F3C2B00083292 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
 		9D5C1F131F9F3C2B00083292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D5C1F181F9F3C2B00083292 /* 弹框试试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "弹框试试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5C1F1C1F9F3C2B00083292 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		9D5C1F1E1F9F3C2B00083292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D5C1F2B1F9F3D7E00083292 /* FTIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTIndicator.h; sourceTree = "<group>"; };
+		9D5C1F2C1F9F3D7E00083292 /* FTIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTIndicator.m; sourceTree = "<group>"; };
+		9D5C1F2E1F9F3D7E00083292 /* FTNotificationIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNotificationIndicator.h; sourceTree = "<group>"; };
+		9D5C1F2F1F9F3D7E00083292 /* FTNotificationIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTNotificationIndicator.m; sourceTree = "<group>"; };
+		9D5C1F311F9F3D7E00083292 /* FTProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTProgressIndicator.h; sourceTree = "<group>"; };
+		9D5C1F321F9F3D7E00083292 /* FTProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTProgressIndicator.m; sourceTree = "<group>"; };
+		9D5C1F331F9F3D7E00083292 /* ImageAsserts.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ImageAsserts.bundle; sourceTree = "<group>"; };
+		9D5C1F351F9F3D7E00083292 /* FTToastIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTToastIndicator.h; sourceTree = "<group>"; };
+		9D5C1F361F9F3D7E00083292 /* FTToastIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTToastIndicator.m; sourceTree = "<group>"; };
+		9D97F43F1FA72A0000BF1119 /* LuckIsIntroducedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckIsIntroducedViewController.h; sourceTree = "<group>"; };
+		9D97F4401FA72A0000BF1119 /* LuckIsIntroducedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckIsIntroducedViewController.m; sourceTree = "<group>"; };
+		9D97F4431FA72A8C00BF1119 /* ZLPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPanGestureRecognizer.h; sourceTree = "<group>"; };
+		9D97F4441FA72A8C00BF1119 /* ZLPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPanGestureRecognizer.m; sourceTree = "<group>"; };
+		9D97F4451FA72A8C00BF1119 /* ZLSwipeableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSwipeableView.h; sourceTree = "<group>"; };
+		9D97F4461FA72A8C00BF1119 /* ZLSwipeableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSwipeableView.m; sourceTree = "<group>"; };
+		9D97F4491FA72ABB00BF1119 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		9D97F44A1FA72ABB00BF1119 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		9D97F44C1FA72B2400BF1119 /* UIColor+FlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatColors.h"; sourceTree = "<group>"; };
+		9D97F44D1FA72B2400BF1119 /* UIColor+FlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatColors.m"; sourceTree = "<group>"; };
+		9D97F44F1FA72CFA00BF1119 /* luckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luckView.h; sourceTree = "<group>"; };
+		9D97F4501FA72CFA00BF1119 /* luckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = luckView.m; sourceTree = "<group>"; };
+		9DCDA2D41FA96760004F2A28 /* VideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoListViewController.h; sourceTree = "<group>"; };
+		9DCDA2D51FA96760004F2A28 /* VideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoListViewController.m; sourceTree = "<group>"; };
+		9DCDA2D81FA96942004F2A28 /* ImageResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ImageResources.bundle; sourceTree = "<group>"; };
+		9DCDA2DA1FA96942004F2A28 /* XLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlider.h; sourceTree = "<group>"; };
+		9DCDA2DB1FA96942004F2A28 /* XLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSlider.m; sourceTree = "<group>"; };
+		9DCDA2DC1FA96942004F2A28 /* XLVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLVideoPlayer.h; sourceTree = "<group>"; };
+		9DCDA2DD1FA96942004F2A28 /* XLVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLVideoPlayer.m; sourceTree = "<group>"; };
+		9DCDA2E21FA9694A004F2A28 /* XLVideoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLVideoItem.h; sourceTree = "<group>"; };
+		9DCDA2E31FA9694A004F2A28 /* XLVideoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLVideoItem.m; sourceTree = "<group>"; };
+		9DCDA2E51FA96B7E004F2A28 /* XLVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLVideoCell.h; sourceTree = "<group>"; };
+		9DCDA2E61FA96B7E004F2A28 /* XLVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLVideoCell.m; sourceTree = "<group>"; };
+		9DD3A64A1FEA36360021FC1F /* XHNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHNetworkCache.h; sourceTree = "<group>"; };
+		9DD3A64B1FEA36360021FC1F /* XHNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHNetworkCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9D5C1EF11F9F3C2B00083292 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D5C1F0A1F9F3C2B00083292 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D5C1F151F9F3C2B00083292 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -92,8 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				9D5C1EF41F9F3C2B00083292 /* 弹框试试.app */,
-				9D5C1F0D1F9F3C2B00083292 /* 弹框试试Tests.xctest */,
-				9D5C1F181F9F3C2B00083292 /* 弹框试试UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +116,14 @@
 		9D5C1EF61F9F3C2B00083292 /* 弹框试试 */ = {
 			isa = PBXGroup;
 			children = (
+				9D5C1F2A1F9F3D7E00083292 /* FTIndicator */,
 				9D5C1EFA1F9F3C2B00083292 /* AppDelegate.h */,
 				9D5C1EFB1F9F3C2B00083292 /* AppDelegate.m */,
 				9D5C1EFD1F9F3C2B00083292 /* ViewController.h */,
 				9D5C1EFE1F9F3C2B00083292 /* ViewController.m */,
+				9DD3A6491FEA36360021FC1F /* XHNetworkCache */,
+				9DCDA2D31FA9673C004F2A28 /* 视频列表 */,
+				9DCDA2D21FA96728004F2A28 /* 卡片模式 */,
 				9D5C1F001F9F3C2B00083292 /* Main.storyboard */,
 				9D5C1F031F9F3C2B00083292 /* Assets.xcassets */,
 				9D5C1F051F9F3C2B00083292 /* LaunchScreen.storyboard */,
@@ -140,6 +159,124 @@
 			path = "弹框试试UITests";
 			sourceTree = "<group>";
 		};
+		9D5C1F2A1F9F3D7E00083292 /* FTIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				9D5C1F2B1F9F3D7E00083292 /* FTIndicator.h */,
+				9D5C1F2C1F9F3D7E00083292 /* FTIndicator.m */,
+				9D5C1F2D1F9F3D7E00083292 /* FTNotificationIndicator */,
+				9D5C1F301F9F3D7E00083292 /* FTProgressIndicator */,
+				9D5C1F341F9F3D7E00083292 /* FTToastIndicator */,
+			);
+			path = FTIndicator;
+			sourceTree = "<group>";
+		};
+		9D5C1F2D1F9F3D7E00083292 /* FTNotificationIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				9D5C1F2E1F9F3D7E00083292 /* FTNotificationIndicator.h */,
+				9D5C1F2F1F9F3D7E00083292 /* FTNotificationIndicator.m */,
+			);
+			path = FTNotificationIndicator;
+			sourceTree = "<group>";
+		};
+		9D5C1F301F9F3D7E00083292 /* FTProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				9D5C1F311F9F3D7E00083292 /* FTProgressIndicator.h */,
+				9D5C1F321F9F3D7E00083292 /* FTProgressIndicator.m */,
+				9D5C1F331F9F3D7E00083292 /* ImageAsserts.bundle */,
+			);
+			path = FTProgressIndicator;
+			sourceTree = "<group>";
+		};
+		9D5C1F341F9F3D7E00083292 /* FTToastIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				9D5C1F351F9F3D7E00083292 /* FTToastIndicator.h */,
+				9D5C1F361F9F3D7E00083292 /* FTToastIndicator.m */,
+			);
+			path = FTToastIndicator;
+			sourceTree = "<group>";
+		};
+		9D97F4421FA72A8C00BF1119 /* ZLSwipeableView */ = {
+			isa = PBXGroup;
+			children = (
+				9D97F4431FA72A8C00BF1119 /* ZLPanGestureRecognizer.h */,
+				9D97F4441FA72A8C00BF1119 /* ZLPanGestureRecognizer.m */,
+				9D97F4451FA72A8C00BF1119 /* ZLSwipeableView.h */,
+				9D97F4461FA72A8C00BF1119 /* ZLSwipeableView.m */,
+			);
+			path = ZLSwipeableView;
+			sourceTree = "<group>";
+		};
+		9DCDA2D21FA96728004F2A28 /* 卡片模式 */ = {
+			isa = PBXGroup;
+			children = (
+				9D97F43F1FA72A0000BF1119 /* LuckIsIntroducedViewController.h */,
+				9D97F4401FA72A0000BF1119 /* LuckIsIntroducedViewController.m */,
+				9D97F4491FA72ABB00BF1119 /* CardView.h */,
+				9D97F44A1FA72ABB00BF1119 /* CardView.m */,
+				9D97F44C1FA72B2400BF1119 /* UIColor+FlatColors.h */,
+				9D97F44D1FA72B2400BF1119 /* UIColor+FlatColors.m */,
+				9D97F44F1FA72CFA00BF1119 /* luckView.h */,
+				9D97F4501FA72CFA00BF1119 /* luckView.m */,
+				9D97F4421FA72A8C00BF1119 /* ZLSwipeableView */,
+			);
+			name = "卡片模式";
+			sourceTree = "<group>";
+		};
+		9DCDA2D31FA9673C004F2A28 /* 视频列表 */ = {
+			isa = PBXGroup;
+			children = (
+				9DCDA2D41FA96760004F2A28 /* VideoListViewController.h */,
+				9DCDA2D51FA96760004F2A28 /* VideoListViewController.m */,
+				9DCDA2E51FA96B7E004F2A28 /* XLVideoCell.h */,
+				9DCDA2E61FA96B7E004F2A28 /* XLVideoCell.m */,
+				9DCDA2E11FA9694A004F2A28 /* Model */,
+				9DCDA2D71FA96942004F2A28 /* VideoPlayer */,
+			);
+			name = "视频列表";
+			sourceTree = "<group>";
+		};
+		9DCDA2D71FA96942004F2A28 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				9DCDA2D81FA96942004F2A28 /* ImageResources.bundle */,
+				9DCDA2D91FA96942004F2A28 /* Slider */,
+				9DCDA2DC1FA96942004F2A28 /* XLVideoPlayer.h */,
+				9DCDA2DD1FA96942004F2A28 /* XLVideoPlayer.m */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		9DCDA2D91FA96942004F2A28 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				9DCDA2DA1FA96942004F2A28 /* XLSlider.h */,
+				9DCDA2DB1FA96942004F2A28 /* XLSlider.m */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		9DCDA2E11FA9694A004F2A28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DCDA2E21FA9694A004F2A28 /* XLVideoItem.h */,
+				9DCDA2E31FA9694A004F2A28 /* XLVideoItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DD3A6491FEA36360021FC1F /* XHNetworkCache */ = {
+			isa = PBXGroup;
+			children = (
+				9DD3A64A1FEA36360021FC1F /* XHNetworkCache.h */,
+				9DD3A64B1FEA36360021FC1F /* XHNetworkCache.m */,
+			);
+			path = XHNetworkCache;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,42 +297,6 @@
 			productReference = 9D5C1EF41F9F3C2B00083292 /* 弹框试试.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9D5C1F0C1F9F3C2B00083292 /* 弹框试试Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9D5C1F241F9F3C2B00083292 /* Build configuration list for PBXNativeTarget "弹框试试Tests" */;
-			buildPhases = (
-				9D5C1F091F9F3C2B00083292 /* Sources */,
-				9D5C1F0A1F9F3C2B00083292 /* Frameworks */,
-				9D5C1F0B1F9F3C2B00083292 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9D5C1F0F1F9F3C2B00083292 /* PBXTargetDependency */,
-			);
-			name = "弹框试试Tests";
-			productName = "弹框试试Tests";
-			productReference = 9D5C1F0D1F9F3C2B00083292 /* 弹框试试Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9D5C1F171F9F3C2B00083292 /* 弹框试试UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9D5C1F271F9F3C2B00083292 /* Build configuration list for PBXNativeTarget "弹框试试UITests" */;
-			buildPhases = (
-				9D5C1F141F9F3C2B00083292 /* Sources */,
-				9D5C1F151F9F3C2B00083292 /* Frameworks */,
-				9D5C1F161F9F3C2B00083292 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9D5C1F1A1F9F3C2B00083292 /* PBXTargetDependency */,
-			);
-			name = "弹框试试UITests";
-			productName = "弹框试试UITests";
-			productReference = 9D5C1F181F9F3C2B00083292 /* 弹框试试UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,16 +309,6 @@
 					9D5C1EF31F9F3C2B00083292 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
-					};
-					9D5C1F0C1F9F3C2B00083292 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 9D5C1EF31F9F3C2B00083292;
-					};
-					9D5C1F171F9F3C2B00083292 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 9D5C1EF31F9F3C2B00083292;
 					};
 				};
 			};
@@ -235,8 +326,6 @@
 			projectRoot = "";
 			targets = (
 				9D5C1EF31F9F3C2B00083292 /* 弹框试试 */,
-				9D5C1F0C1F9F3C2B00083292 /* 弹框试试Tests */,
-				9D5C1F171F9F3C2B00083292 /* 弹框试试UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,20 +338,8 @@
 				9D5C1F071F9F3C2B00083292 /* LaunchScreen.storyboard in Resources */,
 				9D5C1F041F9F3C2B00083292 /* Assets.xcassets in Resources */,
 				9D5C1F021F9F3C2B00083292 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D5C1F0B1F9F3C2B00083292 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D5C1F161F9F3C2B00083292 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9DCDA2DE1FA96942004F2A28 /* ImageResources.bundle in Resources */,
+				9D5C1F3A1F9F3D7E00083292 /* ImageAsserts.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,42 +350,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D97F44B1FA72ABB00BF1119 /* CardView.m in Sources */,
+				9D5C1F391F9F3D7E00083292 /* FTProgressIndicator.m in Sources */,
+				9DCDA2E01FA96942004F2A28 /* XLVideoPlayer.m in Sources */,
 				9D5C1EFF1F9F3C2B00083292 /* ViewController.m in Sources */,
+				9D97F4471FA72A8C00BF1119 /* ZLPanGestureRecognizer.m in Sources */,
+				9D5C1F381F9F3D7E00083292 /* FTNotificationIndicator.m in Sources */,
 				9D5C1EFC1F9F3C2B00083292 /* AppDelegate.m in Sources */,
+				9D97F4411FA72A0000BF1119 /* LuckIsIntroducedViewController.m in Sources */,
+				9D5C1F3B1F9F3D7E00083292 /* FTToastIndicator.m in Sources */,
+				9D97F4511FA72CFA00BF1119 /* luckView.m in Sources */,
+				9D97F44E1FA72B2400BF1119 /* UIColor+FlatColors.m in Sources */,
+				9DCDA2E41FA9694A004F2A28 /* XLVideoItem.m in Sources */,
+				9DCDA2D61FA96760004F2A28 /* VideoListViewController.m in Sources */,
+				9D97F4481FA72A8C00BF1119 /* ZLSwipeableView.m in Sources */,
+				9DCDA2DF1FA96942004F2A28 /* XLSlider.m in Sources */,
+				9DCDA2E71FA96B7E004F2A28 /* XLVideoCell.m in Sources */,
 				9D5C1EF91F9F3C2B00083292 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D5C1F091F9F3C2B00083292 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D5C1F121F9F3C2B00083292 /* ____Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D5C1F141F9F3C2B00083292 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D5C1F1D1F9F3C2B00083292 /* ____UITests.m in Sources */,
+				9D5C1F371F9F3D7E00083292 /* FTIndicator.m in Sources */,
+				9DD3A64C1FEA36360021FC1F /* XHNetworkCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9D5C1F0F1F9F3C2B00083292 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9D5C1EF31F9F3C2B00083292 /* 弹框试试 */;
-			targetProxy = 9D5C1F0E1F9F3C2B00083292 /* PBXContainerItemProxy */;
-		};
-		9D5C1F1A1F9F3C2B00083292 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9D5C1EF31F9F3C2B00083292 /* 弹框试试 */;
-			targetProxy = 9D5C1F191F9F3C2B00083292 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9D5C1F001F9F3C2B00083292 /* Main.storyboard */ = {
@@ -444,52 +508,6 @@
 			};
 			name = Release;
 		};
-		9D5C1F251F9F3C2B00083292 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "弹框试试Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tankuang.----Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/弹框试试.app/弹框试试";
-			};
-			name = Debug;
-		};
-		9D5C1F261F9F3C2B00083292 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "弹框试试Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tankuang.----Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/弹框试试.app/弹框试试";
-			};
-			name = Release;
-		};
-		9D5C1F281F9F3C2B00083292 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "弹框试试UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tankuang.----UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "弹框试试";
-			};
-			name = Debug;
-		};
-		9D5C1F291F9F3C2B00083292 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "弹框试试UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tankuang.----UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "弹框试试";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -509,22 +527,7 @@
 				9D5C1F231F9F3C2B00083292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		9D5C1F241F9F3C2B00083292 /* Build configuration list for PBXNativeTarget "弹框试试Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9D5C1F251F9F3C2B00083292 /* Debug */,
-				9D5C1F261F9F3C2B00083292 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		9D5C1F271F9F3C2B00083292 /* Build configuration list for PBXNativeTarget "弹框试试UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9D5C1F281F9F3C2B00083292 /* Debug */,
-				9D5C1F291F9F3C2B00083292 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
