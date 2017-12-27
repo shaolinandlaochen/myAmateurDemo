@@ -24,7 +24,7 @@
     [super viewDidLoad];
     
     self.view.backgroundColor=[UIColor whiteColor];
-    UITableView *tableView=[[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 500) style:UITableViewStylePlain];
+    UITableView *tableView=[[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     tableView.delegate=self;
     tableView.dataSource=self;
     [self.view addSubview:tableView];
