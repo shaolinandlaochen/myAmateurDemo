@@ -18,6 +18,7 @@
 		9D5C1F391F9F3D7E00083292 /* FTProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C1F321F9F3D7E00083292 /* FTProgressIndicator.m */; };
 		9D5C1F3A1F9F3D7E00083292 /* ImageAsserts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C1F331F9F3D7E00083292 /* ImageAsserts.bundle */; };
 		9D5C1F3B1F9F3D7E00083292 /* FTToastIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C1F361F9F3D7E00083292 /* FTToastIndicator.m */; };
+		9D7472361FFCA79300B2ED88 /* HSLVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7472351FFCA79300B2ED88 /* HSLVideoPlayer.m */; };
 		9D97F4411FA72A0000BF1119 /* LuckIsIntroducedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D97F4401FA72A0000BF1119 /* LuckIsIntroducedViewController.m */; };
 		9D97F4471FA72A8C00BF1119 /* ZLPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D97F4441FA72A8C00BF1119 /* ZLPanGestureRecognizer.m */; };
 		9D97F4481FA72A8C00BF1119 /* ZLSwipeableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D97F4461FA72A8C00BF1119 /* ZLSwipeableView.m */; };
@@ -57,6 +58,8 @@
 		9D5C1F331F9F3D7E00083292 /* ImageAsserts.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ImageAsserts.bundle; sourceTree = "<group>"; };
 		9D5C1F351F9F3D7E00083292 /* FTToastIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTToastIndicator.h; sourceTree = "<group>"; };
 		9D5C1F361F9F3D7E00083292 /* FTToastIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTToastIndicator.m; sourceTree = "<group>"; };
+		9D7472341FFCA79300B2ED88 /* HSLVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSLVideoPlayer.h; sourceTree = "<group>"; };
+		9D7472351FFCA79300B2ED88 /* HSLVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSLVideoPlayer.m; sourceTree = "<group>"; };
 		9D97F43F1FA72A0000BF1119 /* LuckIsIntroducedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckIsIntroducedViewController.h; sourceTree = "<group>"; };
 		9D97F4401FA72A0000BF1119 /* LuckIsIntroducedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckIsIntroducedViewController.m; sourceTree = "<group>"; };
 		9D97F4431FA72A8C00BF1119 /* ZLPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPanGestureRecognizer.h; sourceTree = "<group>"; };
@@ -116,11 +119,12 @@
 		9D5C1EF61F9F3C2B00083292 /* 弹框试试 */ = {
 			isa = PBXGroup;
 			children = (
-				9D5C1F2A1F9F3D7E00083292 /* FTIndicator */,
 				9D5C1EFA1F9F3C2B00083292 /* AppDelegate.h */,
 				9D5C1EFB1F9F3C2B00083292 /* AppDelegate.m */,
 				9D5C1EFD1F9F3C2B00083292 /* ViewController.h */,
 				9D5C1EFE1F9F3C2B00083292 /* ViewController.m */,
+				9D5C1F2A1F9F3D7E00083292 /* FTIndicator */,
+				9D7472331FFCA75C00B2ED88 /* 视频播放器 */,
 				9DD3A6491FEA36360021FC1F /* XHNetworkCache */,
 				9DCDA2D31FA9673C004F2A28 /* 视频列表 */,
 				9DCDA2D21FA96728004F2A28 /* 卡片模式 */,
@@ -197,6 +201,15 @@
 				9D5C1F361F9F3D7E00083292 /* FTToastIndicator.m */,
 			);
 			path = FTToastIndicator;
+			sourceTree = "<group>";
+		};
+		9D7472331FFCA75C00B2ED88 /* 视频播放器 */ = {
+			isa = PBXGroup;
+			children = (
+				9D7472341FFCA79300B2ED88 /* HSLVideoPlayer.h */,
+				9D7472351FFCA79300B2ED88 /* HSLVideoPlayer.m */,
+			);
+			name = "视频播放器";
 			sourceTree = "<group>";
 		};
 		9D97F4421FA72A8C00BF1119 /* ZLSwipeableView */ = {
@@ -356,6 +369,7 @@
 				9D5C1EFF1F9F3C2B00083292 /* ViewController.m in Sources */,
 				9D97F4471FA72A8C00BF1119 /* ZLPanGestureRecognizer.m in Sources */,
 				9D5C1F381F9F3D7E00083292 /* FTNotificationIndicator.m in Sources */,
+				9D7472361FFCA79300B2ED88 /* HSLVideoPlayer.m in Sources */,
 				9D5C1EFC1F9F3C2B00083292 /* AppDelegate.m in Sources */,
 				9D97F4411FA72A0000BF1119 /* LuckIsIntroducedViewController.m in Sources */,
 				9D5C1F3B1F9F3D7E00083292 /* FTToastIndicator.m in Sources */,

@@ -17,6 +17,7 @@
 @property (nonatomic, strong) NSArray *colors;
 @property (nonatomic, strong)ZLSwipeableView *swipeableView;
 @property(nonatomic,strong)NSArray *imgArray;
+@property(nonatomic,assign)NSInteger number;
 
 @end
 
@@ -26,6 +27,7 @@
     [super viewDidLoad];
     
     self.colorIndex = 0;
+    self.number=0;
     self.colors = @[
                     @"Turquoise",
                     @"Green Sea",
@@ -89,8 +91,14 @@
 }
 - (void)swipeableView: (ZLSwipeableView *)swipeableView swipingView:(UIView *)view atLocation:(CGPoint)location {
     NSLog(@"swiping at location: x %f, y%f", location.x, location.y);
+    [self numberAdd];
 }
-
+-(void)numberAdd{
+    self.number+=1;
+    if (self.number==_imgArray.count) {
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }
+}
 #pragma mark - ZLSwipeableViewDataSource
 - (UIView *)nextViewForSwipeableView:(ZLSwipeableView *)swipeableView {
     if (self.colorIndex<_imgArray.count) {

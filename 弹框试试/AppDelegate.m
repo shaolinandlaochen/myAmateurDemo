@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,37 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    
+    
+    //我的部分
+    ViewController *my = [[ViewController alloc]init];
+    UINavigationController *myVC = [[UINavigationController alloc]initWithRootViewController:my];
+    // 设置内容
+    myVC.tabBarItem= [[UITabBarItem alloc]initWithTitle:@"我的"image:[UIImage imageNamed:@"icon_index_mine_nor"]tag:1004];
+    // 提示信息
+    myVC.tabBarItem.badgeValue= nil;
+    my.title=@"My Home";
+    
+    
+    
+    // 标签视图控制器，用来管理导航控制器的
+    UITabBarController *tabBars = [[UITabBarController alloc]init];
+    
+    // 设置背景颜色
+    tabBars.tabBar.barTintColor= [UIColor yellowColor];
+    // 设置不半透明
+    tabBars.tabBar.translucent= NO;
+    // 设置选中按钮的颜色
+    tabBars.tabBar.tintColor= [UIColor redColor];
+    tabBars.tabBar.unselectedItemTintColor=[UIColor grayColor];
+    
+    
+    
+    // 给标签控制器指定子控制器
+    tabBars.viewControllers= [NSArray arrayWithObjects:myVC,nil];
+    self.window.rootViewController=tabBars;
     return YES;
 }
 

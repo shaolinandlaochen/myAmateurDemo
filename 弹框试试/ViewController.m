@@ -11,6 +11,7 @@
 #import "LuckIsIntroducedViewController.h"
 #import "VideoListViewController.h"
 #import "XHNetworkCache.h"
+#import "HSLVideoPlayer.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
 
@@ -53,6 +54,63 @@
     UIImage *viewImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return  viewImage;
+}
+-(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self doCellAnimationWithAnimationStyle:UITableViewCellDisplayAnimationStyleScale onTheView:cell];
+}
+//cell显示动画
+- (void)doCellAnimationWithAnimationStyle:(UITableViewCellDisplayAnimationStyle)animationStyle onTheView:(UIView *)view
+{
+    
+    switch (animationStyle) {
+        case UITableViewCellDisplayAnimationStyleFade:
+        {
+            view.alpha = 0;
+            [UIView animateWithDuration:0.5 animations:^{
+                view.alpha = 1;
+            }];
+        }
+            break;
+        case UITableViewCellDisplayAnimationStyleScale:
+        {
+            view.layer.transform = CATransform3DMakeScale(0.2, 0.2, 1);
+            [UIView animateWithDuration:0.5 animations:^{
+                view.layer.transform = CATransform3DMakeScale(1, 1, 1);
+            }];
+        }
+            break;
+        case UITableViewCellDisplayAnimationStylePosition:
+        {
+            view.transform = CGAffineTransformTranslate(view.transform, -[UIScreen mainScreen].bounds.size.width/2, 0);
+            [UIView animateWithDuration:0.5 animations:^{
+                view.transform = CGAffineTransformIdentity;
+            }];
+            
+        }
+            break;
+        case UITableViewCellDisplayAnimationStyleRotateX:
+        {
+            view.layer.transform = CATransform3DRotate(view.layer.transform, M_PI, 1, 0, 0);
+            [UIView animateWithDuration:0.5 animations:^{
+                view.layer.transform = CATransform3DRotate(view.layer.transform, M_PI, 1, 0, 0);
+            }];
+            
+        }
+            break;
+        case UITableViewCellDisplayAnimationStyleRotateY:
+        {
+            view.layer.transform = CATransform3DRotate(view.layer.transform, M_PI, 0, 1, 0);
+            [UIView animateWithDuration:0.5 animations:^{
+                view.layer.transform = CATransform3DRotate(view.layer.transform, M_PI, 0, 1, 0);
+            }];
+            
+        }
+            break;
+            
+        default:
+            break;
+    }
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
@@ -135,7 +193,7 @@
             break;
         case 12:
         {
-            
+            cell.textLabel.text=@"视频播放器";
         }
             break;
             
@@ -224,9 +282,7 @@
         {
             //视频列表
             VideoListViewController *list=[[VideoListViewController alloc]init];
-            [self presentViewController:list animated:YES completion:^{
-                
-            }];
+            [self.navigationController pushViewController:list animated:YES];
         }
             break;
             
@@ -241,6 +297,13 @@
             
             break;
         }
+            case 12:
+        {
+        
+            HSLVideoPlayer *HSL=[[HSLVideoPlayer alloc]init];
+            [self.navigationController pushViewController:HSL animated:YES];
+        }
+            break;
             
             
         default:
