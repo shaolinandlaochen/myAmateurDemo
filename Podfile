@@ -4,4 +4,5 @@ pod 'AFNetworking', '~> 3.1.0'
 pod 'SDWebImage', '~> 3.7.6'
 pod 'SDAutoLayout', '~> 2.2.0'
 pod 'IQKeyboardManager', '~> 5.0.7' 
+pod 'CYLTableViewPlaceHolder', '~> 1.0.8'
 end

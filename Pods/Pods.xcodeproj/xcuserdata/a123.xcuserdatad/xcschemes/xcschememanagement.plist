@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CYLTableViewPlaceHolder.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>IQKeyboardManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,7 +37,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2C90C0045FD0F19C76F8070DFA2953D2</key>
+		<key>0545B705DE8A9DAFAEF033F5DCC260A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3CAF99E525444760E4006B7C19E0D5E3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,12 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EF29A628D2F6B4ACF3B5B226D0DF09B3</key>
+		<key>BB9CA6D02196649994BFC3C59A756CF2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F4F27B655E2ED1B98811809A085B4ECA</key>
+		<key>EE3D56E6D277B6A9872A13E828B0A3EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
