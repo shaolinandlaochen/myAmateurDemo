@@ -24,9 +24,7 @@
     tableView.dataSource=self;
     tableView.tableFooterView=[[UIView alloc]initWithFrame:CGRectZero];
     [self.view addSubview:tableView];
-    tableView.ly_emptyView = [LYEmptyView emptyViewWithImageStr:@"img_nodata_oder"
-                                                            titleStr:@"暂无数据,请稍后再试"
-                                                           detailStr:nil];
+    tableView.ly_emptyView = [LYEmptyView emptyViewWithImageStr:@"img_nodata_oder"titleStr:@"暂无数据,请稍后再试"detailStr:nil];
 
     index=10;
     // Do any additional setup after loading the view.

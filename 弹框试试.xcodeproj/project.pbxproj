@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70F2A8D7D1101C5B6674C433 /* libPods-弹框试试.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F2BBDB1EE04D6E755123AA /* libPods-弹框试试.a */; };
 		9D5C1EF91F9F3C2B00083292 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C1EF81F9F3C2B00083292 /* main.m */; };
 		9D5C1EFC1F9F3C2B00083292 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C1EFB1F9F3C2B00083292 /* AppDelegate.m */; };
 		9D5C1EFF1F9F3C2B00083292 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C1EFE1F9F3C2B00083292 /* ViewController.m */; };
@@ -53,9 +54,9 @@
 		9D5C1F031F9F3C2B00083292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D5C1F061F9F3C2B00083292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D5C1F081F9F3C2B00083292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D5C1F111F9F3C2B00083292 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		9D5C1F111F9F3C2B00083292 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____Tests.m; sourceTree = "<group>"; };
 		9D5C1F131F9F3C2B00083292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D5C1F1C1F9F3C2B00083292 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		9D5C1F1C1F9F3C2B00083292 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____UITests.m; sourceTree = "<group>"; };
 		9D5C1F1E1F9F3C2B00083292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D5C1F2B1F9F3D7E00083292 /* FTIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTIndicator.h; sourceTree = "<group>"; };
 		9D5C1F2C1F9F3D7E00083292 /* FTIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTIndicator.m; sourceTree = "<group>"; };
@@ -107,6 +108,9 @@
 		9DCDA2E61FA96B7E004F2A28 /* XLVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLVideoCell.m; sourceTree = "<group>"; };
 		9DD3A64A1FEA36360021FC1F /* XHNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHNetworkCache.h; sourceTree = "<group>"; };
 		9DD3A64B1FEA36360021FC1F /* XHNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHNetworkCache.m; sourceTree = "<group>"; };
+		D0F2BBDB1EE04D6E755123AA /* libPods-弹框试试.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-弹框试试.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39A853DBB7EFDED1EFE5A8C /* Pods-弹框试试.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-弹框试试.debug.xcconfig"; path = "Pods/Target Support Files/Pods-弹框试试/Pods-弹框试试.debug.xcconfig"; sourceTree = "<group>"; };
+		FACA6C46E50F00D4C5FF34D4 /* Pods-弹框试试.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-弹框试试.release.xcconfig"; path = "Pods/Target Support Files/Pods-弹框试试/Pods-弹框试试.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +118,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70F2A8D7D1101C5B6674C433 /* libPods-弹框试试.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89D868BB6278D361F992D571 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D39A853DBB7EFDED1EFE5A8C /* Pods-弹框试试.debug.xcconfig */,
+				FACA6C46E50F00D4C5FF34D4 /* Pods-弹框试试.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9D5C1EEB1F9F3C2A00083292 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +141,8 @@
 				9D5C1F101F9F3C2B00083292 /* 弹框试试Tests */,
 				9D5C1F1B1F9F3C2B00083292 /* 弹框试试UITests */,
 				9D5C1EF51F9F3C2B00083292 /* Products */,
+				89D868BB6278D361F992D571 /* Pods */,
+				A4A786369E1795479E3BCDA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -342,6 +358,14 @@
 			path = XHNetworkCache;
 			sourceTree = "<group>";
 		};
+		A4A786369E1795479E3BCDA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F2BBDB1EE04D6E755123AA /* libPods-弹框试试.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -349,9 +373,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D5C1F211F9F3C2B00083292 /* Build configuration list for PBXNativeTarget "弹框试试" */;
 			buildPhases = (
+				B8202944519284B52FF51A5F /* [CP] Check Pods Manifest.lock */,
 				9D5C1EF01F9F3C2B00083292 /* Sources */,
 				9D5C1EF11F9F3C2B00083292 /* Frameworks */,
 				9D5C1EF21F9F3C2B00083292 /* Resources */,
+				683240D2C334E93765970E72 /* [CP] Embed Pods Frameworks */,
+				7D9D12ECA9219DF82E3815A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -412,6 +439,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		683240D2C334E93765970E72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-弹框试试/Pods-弹框试试-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D9D12ECA9219DF82E3815A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-弹框试试/Pods-弹框试试-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-弹框试试/Pods-弹框试试-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8202944519284B52FF51A5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-弹框试试-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9D5C1EF01F9F3C2B00083292 /* Sources */ = {
@@ -562,6 +643,7 @@
 		};
 		9D5C1F221F9F3C2B00083292 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D39A853DBB7EFDED1EFE5A8C /* Pods-弹框试试.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "弹框试试/Info.plist";
@@ -573,6 +655,7 @@
 		};
 		9D5C1F231F9F3C2B00083292 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FACA6C46E50F00D4C5FF34D4 /* Pods-弹框试试.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "弹框试试/Info.plist";
