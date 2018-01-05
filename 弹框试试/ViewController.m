@@ -12,6 +12,7 @@
 #import "VideoListViewController.h"
 #import "XHNetworkCache.h"
 #import "HSLVideoPlayer.h"
+#import "NULLViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
 
@@ -196,6 +197,11 @@
             cell.textLabel.text=@"视频播放器";
         }
             break;
+            case 13:
+        {
+        
+            cell.textLabel.text=@"空数据处理";
+        }
             
             
         default:
@@ -304,6 +310,14 @@
             [self.navigationController pushViewController:HSL animated:YES];
         }
             break;
+            case 13:
+        {
+        
+            self.hidesBottomBarWhenPushed=YES;
+            NULLViewController *NULLView=[[NULLViewController alloc]init];
+            [self.navigationController pushViewController:NULLView animated:YES];
+            self.hidesBottomBarWhenPushed=NO;
+        }
             
             
         default:
