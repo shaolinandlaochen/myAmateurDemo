@@ -13,6 +13,7 @@
 #import "XHNetworkCache.h"
 #import "HSLVideoPlayer.h"
 #import "NULLViewController.h"
+#import "CalendarViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
 
@@ -202,6 +203,11 @@
         
             cell.textLabel.text=@"空数据处理";
         }
+            break;
+            case 14:
+        {
+            cell.textLabel.text=@"日历";
+        }
             
             
         default:
@@ -316,6 +322,15 @@
             self.hidesBottomBarWhenPushed=YES;
             NULLViewController *NULLView=[[NULLViewController alloc]init];
             [self.navigationController pushViewController:NULLView animated:YES];
+            self.hidesBottomBarWhenPushed=NO;
+        }
+            break;
+            case 14:
+        {
+        
+            self.hidesBottomBarWhenPushed=YES;
+            CalendarViewController *Calendar=[[CalendarViewController alloc]init];
+            [self.navigationController pushViewController:Calendar animated:YES];
             self.hidesBottomBarWhenPushed=NO;
         }
             
